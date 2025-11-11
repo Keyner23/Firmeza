@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EC6pm/kUJdwvTqAYFGOoUGufjR6gjj9y46r/+HvjDQ7tAlO/5iqGREPDSUIg475OnQGKnFanIixNrDzDwcaBMg==",
+  "dgSpecHash": "pgra/lTZP/M=",
   "success": true,
   "projectFilePath": "/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/Ferreteria.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -26,5 +26,15 @@
     "/home/Coder/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
     "/home/Coder/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/Ferreteria.Infrastructure.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/Ferreteria.Infrastructure.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

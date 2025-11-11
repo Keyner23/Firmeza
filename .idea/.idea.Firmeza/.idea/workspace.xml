@@ -9,30 +9,112 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1313c29a-eed0-4895-a1d6-1098db5fbd59" name="Changes" comment="Implementacion de clean para y validacion con identity" />
+    <list default="true" id="1313c29a-eed0-4895-a1d6-1098db5fbd59" name="Changes" comment="Implementacion de clean para y validacion con identity">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Firmeza/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Firmeza/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/Controllers/DashboardController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/Controllers/DashboardController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/Views/Dashboard/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/Views/Dashboard/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/Ferreteria.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/ref/Ferreteria.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/ref/Ferreteria.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/refint/Ferreteria.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Debug/net8.0/refint/Ferreteria.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/Ferreteria.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/Ferreteria.Web.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Web/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/Services/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/ref/Ferreteria.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/ref/Ferreteria.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/refint/Ferreteria.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Debug/net8.0/refint/Ferreteria.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Ferreteria.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/Ferreteria.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/bin/Debug/net8.0/Ferreteria.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/bin/Debug/net8.0/Ferreteria.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/bin/Debug/net8.0/Ferreteria.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/bin/Debug/net8.0/Ferreteria.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/ref/Ferreteria.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/ref/Ferreteria.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/refint/Ferreteria.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Debug/net8.0/refint/Ferreteria.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Ferreteria.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/Ferreteria.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Ferreteria.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/ref/Ferreteria.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/ref/Ferreteria.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/refint/Ferreteria.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Debug/net8.0/refint/Ferreteria.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Ferreteria.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/Ferreteria.Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ferreteria.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Keyner23"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Keyner23&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Keyner23/Firmeza.git",
-    "accountId": "e4a759bb-8b92-4fa1-b64d-b36464cd0e16"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Keyner23/Firmeza.git&quot;,
+    &quot;accountId&quot;: &quot;e4a759bb-8b92-4fa1-b64d-b36464cd0e16&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/784fb4499ccc4808924583f67728932e26ae48/b1/26e0fc3e/DbSet`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3bd4df5aff92cabbc4d630be64227073db1b8539b3a1e47786b4b189d7cdb7/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4b21fc3f8a3abb5d25f06c622276fbec0fd3932f169cc6af520bf5abc6a46b4/DbSet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Ferreteria.Web/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Ferreteria.Web/Controllers/DashboardController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ferreteria.Web/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Ferreteria.Web/ViewModels/LoginViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Ferreteria.Web/ViewModels/RegisterViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ferreteria.Application/Interfaces/IProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,10 +124,11 @@
     <setting file="file://$PROJECT_DIR$/src/Ferreteria.Infrastructure/Persistence/ApplicationUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ferreteria.Infrastructure/Persistence/ProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="35J04UPBCnZYTPy6iZ5UiBoNEM8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,9 +136,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.D-ilary.executor": "Run",
+    ".NET Project.Ferreteria.Web.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Web/Ferreteria.Web.csproj",
     "node.js.detected.package.eslint": "true",
@@ -66,11 +152,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Ferreteria.Web: http">
-    <configuration name="Ferreteria.Web" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+  <component name="RunManager">
+    <configuration name="D-ilary" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Ferreteria.Web/bin/Debug/net8.0/Ferreteria.Web" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ferreteria.Web" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
@@ -80,44 +166,13 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="RUNTIME_TYPE" value="coreclr" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Ferreteria.Web/Ferreteria.Web.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="Ferreteria.Web: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Ferreteria.Web/Ferreteria.Web.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="http" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="Ferreteria.Web: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Ferreteria.Web/Ferreteria.Web.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="https" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_TFM" value="net8.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -130,13 +185,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762812675955</updated>
-      <workItem from="1762812678029" duration="9977000" />
+      <workItem from="1762812678029" duration="10066000" />
+      <workItem from="1762885280070" duration="9276000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

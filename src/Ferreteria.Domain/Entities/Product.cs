@@ -6,7 +6,7 @@ public class Product
     public string name { get; set; }
     
     public decimal? price { get; set; }
-
+    public Product() { }
     public Product(Guid id, string name, decimal? price)
     {
         this.id = id;

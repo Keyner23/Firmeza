@@ -17,3 +17,4 @@
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/ref/Ferreteria.Infrastructure.dll
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.sourcelink.json

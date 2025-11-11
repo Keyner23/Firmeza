@@ -13,3 +13,4 @@
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/refint/Ferreteria.Application.dll
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.pdb
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/ref/Ferreteria.Application.dll
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.sourcelink.json

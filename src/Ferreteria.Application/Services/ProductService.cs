@@ -12,9 +12,21 @@ public class ProductService
         _repository = repository;
     }
 
-    public Task<IEnumerable<Product>> GetProductsAsync() => _repository.GetAllAsync();
-    public Task<Product?> GetProductAsync(int id) => _repository.GetByIdAsync(id);
-    public Task AddProductAsync(Product product) => _repository.AddAsync(product);
-    public Task UpdateProductAsync(Product product) => _repository.UpdateAsync(product);
-    public Task DeleteProductAsync(int id) => _repository.DeleteAsync(id);
+    public async Task<IEnumerable<Product>> GetProductsAsync() =>
+        await _repository.GetAllAsync();
+
+    public async Task AddProductAsync(Product product)
+    {
+        product.id = Guid.NewGuid(); 
+        await _repository.AddAsync(product); 
+    }
+
+    public async Task<Product?> GetProductAsync(int id) =>
+        await _repository.GetByIdAsync(id);
+
+    public async Task UpdateProductAsync(Product product) =>
+        await _repository.UpdateAsync(product);
+
+    // public async Task DeleteProductAsync(Guid id) =>
+    //     await _repository.DeleteAsync(id);
 }   
