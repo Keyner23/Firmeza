@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="d-flex flex-column justify-content-center align-items-center vh-100 text-center"
+     style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            color: #333;
+            background-image: url('https://www.transparenttextures.com/patterns/metal-texture.png');
+            background-size: cover;">
+
+    <div class="p-5 rounded-4 shadow-lg" 
+         style="background: rgba(255,255,255,0.9); max-width: 600px;">
+
+        <div class="mb-4">
+            <i class="bi bi-gear-fill text-warning display-1"></i>
+        </div>
+
+        <h1 class="display-4 fw-bold mb-3" style="color: #ff7f00;">
+            Bienvenido a <span class="text-dark">D'Ilary</span>
+        </h1>
+
+        <p class="lead text-secondary mb-4">
+            Sistema de gestión para ferreterías — práctico, robusto y eficiente.
+        </p>
+
+        <a asp-controller="Auth" asp-action="Login"
+           class="btn btn-lg px-5 py-3 rounded-pill shadow-lg"
+           style="background-color: #ff7f00; color: white; font-weight: 600; border: none;">
+            <i class="bi bi-box-arrow-in-right me-2"></i> Iniciar Sesión
+        </a>
+
+        <div class="mt-4">
+            <small class="text-muted">¿No tienes cuenta?
+                <a asp-controller="" asp-action="" class="text-decoration-none fw-bold" style="color: #ff7f00;">
+                    Regístrate aquí
+                </a>
+            </small>
+        </div>
+    </div>
+</div>

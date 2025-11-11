@@ -1,0 +1,15 @@
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Application.deps.json
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Application.dll
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Application.pdb
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Domain.dll
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/bin/Debug/net8.0/Ferreteria.Domain.pdb
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.csproj.AssemblyReference.cache
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.AssemblyInfoInputs.cache
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.AssemblyInfo.cs
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.csproj.CoreCompileInputs.cache
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.csproj.CopyComplete
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.dll
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/refint/Ferreteria.Application.dll
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/Ferreteria.Application.pdb
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Application/obj/Debug/net8.0/ref/Ferreteria.Application.dll

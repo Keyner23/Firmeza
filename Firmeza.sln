@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferreteria.Application", "src\Ferreteria.Application\Ferreteria.Application.csproj", "{AA0D4BBA-378F-49AE-AD81-4FA7E335945D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferreteria.Domain", "src\Ferreteria.Domain\Ferreteria.Domain.csproj", "{38C8C6F2-7DB0-452D-8EC9-1FBC7373E2C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferreteria.Infrastructure", "src\Ferreteria.Infrastructure\Ferreteria.Infrastructure.csproj", "{B4C83A07-4108-4BBE-8C71-0528749AF7AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferreteria.Web", "Ferreteria.Web\Ferreteria.Web.csproj", "{FEA7B98D-2D89-4E6E-89E5-FDA219DEE498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA0D4BBA-378F-49AE-AD81-4FA7E335945D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0D4BBA-378F-49AE-AD81-4FA7E335945D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0D4BBA-378F-49AE-AD81-4FA7E335945D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0D4BBA-378F-49AE-AD81-4FA7E335945D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C8C6F2-7DB0-452D-8EC9-1FBC7373E2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C8C6F2-7DB0-452D-8EC9-1FBC7373E2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C8C6F2-7DB0-452D-8EC9-1FBC7373E2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C8C6F2-7DB0-452D-8EC9-1FBC7373E2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C83A07-4108-4BBE-8C71-0528749AF7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C83A07-4108-4BBE-8C71-0528749AF7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C83A07-4108-4BBE-8C71-0528749AF7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C83A07-4108-4BBE-8C71-0528749AF7AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA7B98D-2D89-4E6E-89E5-FDA219DEE498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA7B98D-2D89-4E6E-89E5-FDA219DEE498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA7B98D-2D89-4E6E-89E5-FDA219DEE498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA7B98D-2D89-4E6E-89E5-FDA219DEE498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
