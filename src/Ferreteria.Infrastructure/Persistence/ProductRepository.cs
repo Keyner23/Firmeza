@@ -13,8 +13,10 @@ public class ProductRepository: IProductRepository
         _context = context;
     }
 
-    public async Task<IEnumerable<Product>> GetAllAsync() =>
-        await _context.Products.ToListAsync();
+    public async Task<IEnumerable<Product>> GetAllAsync()
+    {
+        return await _context.Products.ToListAsync();
+    }
 
     public async Task<Product?> GetByIdAsync(int id) =>
         await _context.Products.FindAsync(id);

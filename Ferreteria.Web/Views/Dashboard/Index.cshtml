@@ -1,3 +1,4 @@
+@model IEnumerable<Ferreteria.Domain.Entities.Product>
 @{
     ViewData["Title"] = "Dashboard";    
     Layout = null;
@@ -23,7 +24,7 @@
 
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
-                        <a asp-controller="Equipment" asp-action="Index" class="nav-link active text-warning fw-semibold d-flex align-items-center">
+                        <a asp-controller="Dashboard" asp-action="Index" class="nav-link active text-warning fw-semibold d-flex align-items-center">
                             <i class="bi bi-tools me-2"></i> Equipos
                         </a>
                     </li>
@@ -33,7 +34,7 @@
                     @if (User.IsInRole("Admin"))
                     {
                         <li class="nav-item mb-2">
-                            <a asp-controller="Equipment" asp-action="Upload"
+                            <a asp-controller="Dashboard" asp-action="Index"
                                class="btn btn-outline-warning w-100 rounded-pill fw-semibold text-start">
                                 <i class="bi bi-cloud-upload me-2"></i> Cargar Excel
                             </a>
@@ -91,13 +92,6 @@
                             <i class="bi bi-cart-plus me-2"></i> Crear Venta
                         </a>
                     </li>
-
-                    <li class="nav-item">
-                        <a asp-controller="Sale" asp-action="Create"
-                           class="btn btn-warning w-100 text-white rounded-pill fw-semibold text-start">
-                            <i class="bi bi-bag-check-fill me-2"></i> Imprimir Ventas
-                        </a>
-                    </li>
                 </ul>
             </div>
 
@@ -131,8 +125,9 @@
                                 <table class="table table-hover align-middle text-center">
                                     <thead style="background-color: #ff7f00; color: white;">
                                         <tr>
-                                            <th>Nombre</th>
-                                            <th>Precio por Hora</th>
+                                            <th>ID</th>
+                                            <th>Nombre </th>
+                                            <th>Precio </th>
                                             @if (User.IsInRole("Admin"))
                                             {
                                                 <th>Acciones</th>
@@ -143,15 +138,18 @@
                                         @foreach (var item in Model)
                                         {
                                             <tr>
-                                                <td class="fw-semibold">@item.Name</td>
-                                                <td>$@item.priceHour.ToString("N0")</td>
+                                                <td class="fw-semibold">@item.id</td>
+                                                <td class="fw-semibold">@item.name</td>
+                                                <td>$@item.price?.ToString("N0")</td>
+
+
 
                                                 @if (User.IsInRole("Admin"))
                                                 {
                                                     <td>
-                                                        <form asp-controller="Equipment" asp-action="Delete" method="post"
+                                                        <form asp-controller="" asp-action="" method="post"
                                                               onsubmit="return confirm('¿Estás seguro de eliminar este equipo?');">
-                                                            <input type="hidden" name="id" value="@item.Id" />
+                                                            <input type="hidden" name="id" value="@item.id" />
                                                             <button type="submit" class="btn btn-outline-danger btn-sm rounded-pill">
                                                                 <i class="bi bi-trash-fill"></i> Borrar
                                                             </button>
