@@ -126,8 +126,8 @@
                                     <thead style="background-color: #ff7f00; color: white;">
                                         <tr>
                                             <th>ID</th>
-                                            <th>Nombre </th>
-                                            <th>Precio </th>
+                                            <th>NOMBRE</th>
+                                            <th>PRECIO</th>
                                             @if (User.IsInRole("Admin"))
                                             {
                                                 <th>Acciones</th>
@@ -139,7 +139,7 @@
                                         {
                                             <tr>
                                                 <td class="fw-semibold">@item.id</td>
-                                                <td class="fw-semibold">@item.name</td>
+                                                <td class="fw-semibold">@item.name.ToUpper()</td>
                                                 <td>$@item.price?.ToString("N0")</td>
 
 
