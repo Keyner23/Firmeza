@@ -10,4 +10,6 @@ public class ApplicationDbContext: IdentityDbContext<ApplicationUser>
         : base(options) { }
 
     public DbSet<Product> Products => Set<Product>();
+    public DbSet<Customer> Customers => Set<Customer>();
+
 }

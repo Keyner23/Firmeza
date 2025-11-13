@@ -1,7 +1,7 @@
-@model Ferreteria.Domain.Entities.Product
+@model IEnumerable<Ferreteria.Domain.Entities.Customer>
 
 @{
-    ViewData["Title"] = "Registrar Producto";
+    ViewData["Title"] = "Clientes";
     Layout = null;
 }
 
@@ -13,10 +13,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
-
-<body style="background-color: #f8f9fa; font-family: 'Segoe UI', sans-serif;">
+<body style="background-color: #f4f4f4; font-family: 'Segoe UI', sans-serif;">
 
 <div class="d-flex" style="min-height: 100vh;">
+
     <!-- Sidebar -->
     <div class="bg-dark text-white p-4 d-flex flex-column justify-content-between" style="width: 250px;">
             <div>
@@ -54,7 +54,7 @@
 
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
-                        <a asp-controller="" asp-action="" class="nav-link active text-warning fw-semibold d-flex align-items-center">
+                        <a asp-controller="Customer" asp-action="IndexCustomer" class="nav-link active text-warning fw-semibold d-flex align-items-center">
                             <i class="bi bi-person-circle me-2"></i> Clientes
                         </a>
                     </li>
@@ -108,52 +108,73 @@
     <!-- Main Content -->
     <div class="flex-grow-1">
         <nav class="navbar navbar-light bg-white shadow-sm px-4 py-3">
-            <div class="d-flex justify-content-between w-100 align-items-center">
-                <h4 class="fw-bold mb-0 text-dark">
-                    <i class="bi bi-box-seam text-warning me-2"></i> Registrar Producto
-                </h4>
-                <a asp-controller="Product" asp-action="Index"
-                   class="btn btn-outline-secondary rounded-pill">
-                    <i class="bi bi-arrow-left-circle me-2"></i> Volver
-                </a>
-            </div>
+            <h4 class="fw-bold mb-0 text-dark">
+                <i class="bi bi-person-badge text-warning me-2"></i>Gestión de Clientes
+            </h4>
         </nav>
 
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-8">
-                    <div class="card shadow-lg border-0 rounded-4">
-                        <div class="card-body p-5">
-                            <h2 class="text-center fw-bold text-secondary mb-4">
-                                <i class="bi bi-hammer text-warning"></i> Crear Producto
-                            </h2>
-                            <hr class="mb-4" />
+        <!-- Content -->
+        <div class="p-5">
+            <div class="card border-0 shadow-sm rounded-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h5 class="fw-bold text-secondary">
+                            <i class="bi bi-list-check me-2 text-warning"></i> Lista de Clientes
+                        </h5>
 
-                            <form asp-controller="Product" asp-action="Create" method="post">
-                                <div class="mb-3">
-                                    <label asp-for="name" class="form-label fw-semibold">Nombre del producto</label>
-                                    <input asp-for="name" class="form-control form-control-lg rounded-3 shadow-sm"
-                                           placeholder="Ej: Martillo" required />
-                                    <span asp-validation-for="name" class="text-danger small"></span>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label asp-for="price" class="form-label fw-semibold">Precio</label>
-                                    <input asp-for="price" type="number" step="0.01"
-                                           class="form-control form-control-lg rounded-3 shadow-sm"
-                                           placeholder="Ej: 25000" required />
-                                    <span asp-validation-for="price" class="text-danger small"></span>
-                                </div>
-                                
-
-                                <div class="d-grid">
-                                    <button type="submit" class="btn btn-warning text-white btn-lg rounded-pill shadow-sm">
-                                        <i class="bi bi-check-circle-fill me-2"></i> Crear Producto
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
                     </div>
+
+                    @if (Model != null && Model.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle text-center">
+                                <thead style="background-color: #ff7f00; color: white;">
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Correo</th>
+                                    <th>Teléfono</th>
+                                    <th>Direccion</th>
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <th>Acciones</th>
+                                    }
+                                </tr>
+                                </thead>
+                                <tbody>
+                                @foreach (var cliente in Model)
+                                {
+                                    <tr>
+                                        <td class="fw-semibold">@cliente.Name</td>
+                                        <td>@cliente.Email</td>
+                                        <td>@cliente.Phone</td>
+                                        <td>@cliente.Address</td>
+                                        
+
+                                        @if (User.IsInRole("Admin"))
+                                        {
+                                            <td>
+                                                <form asp-controller="Client" asp-action="Delete" method="post"
+                                                      onsubmit="return confirm('¿Estás seguro de eliminar este cliente?');">
+                                                    <input type="hidden" name="id" value="@cliente.Id" />
+                                                    <button type="submit" class="btn btn-outline-danger btn-sm rounded-pill">
+                                                        <i class="bi bi-trash-fill"></i> Borrar
+                                                    </button>
+                                                </form>
+                                            </td>
+                                        }
+                                    </tr>
+                                }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-5">
+                            <i class="bi bi-exclamation-circle text-muted display-5"></i>
+                            <p class="text-muted mt-3 mb-0">No hay clientes registrados todavía.</p>
+                        </div>
+                    }
                 </div>
             </div>
         </div>
@@ -162,3 +183,18 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

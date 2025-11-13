@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ferreteria.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+133ff7e9c2a89ab1cc84acb0d16321f548a78cff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b380d813cecb0ac9c37fdcdf9d7e0d32a514532f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ferreteria.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ferreteria.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

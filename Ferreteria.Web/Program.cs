@@ -14,9 +14,14 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 
 //  2. Inyección de dependencias (Application layer)
-
+//Producto
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ProductService>();
+
+//CLiente
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<CustomerService>();
+
 
 
 //  3. Configuración de Identity
