@@ -6,16 +6,16 @@ public class Customer
     public string Name { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
     public string Phone { get; set; } = string.Empty;
-    public string Address { get; set; } = string.Empty;
+    public int Document { get; set; } 
     
     public Customer() { }
     
-    public Customer(Guid id, string name, string email, string phone, string address)
+    public Customer(Guid id, string name, string email, string phone, int document)
     {
         Id = id;
         Name = name;
         Email = email;
         Phone = phone;
-        Address = address;
+        Document = document;
     }
 }

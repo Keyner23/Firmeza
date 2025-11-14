@@ -133,7 +133,7 @@
                                     <th>Nombre</th>
                                     <th>Correo</th>
                                     <th>Teléfono</th>
-                                    <th>Direccion</th>
+                                    <th>Documento</th>
                                     @if (User.IsInRole("Admin"))
                                     {
                                         <th>Acciones</th>
@@ -147,7 +147,7 @@
                                         <td class="fw-semibold">@cliente.Name</td>
                                         <td>@cliente.Email</td>
                                         <td>@cliente.Phone</td>
-                                        <td>@cliente.Address</td>
+                                        <td>@cliente.Document</td>
                                         
 
                                         @if (User.IsInRole("Admin"))
