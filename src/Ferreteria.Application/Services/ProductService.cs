@@ -27,6 +27,6 @@ public class ProductService
     public async Task UpdateProductAsync(Product product) =>
         await _repository.UpdateAsync(product);
 
-    // public async Task DeleteProductAsync(Guid id) =>
-    //     await _repository.DeleteAsync(id);
+    public async Task DeleteProductAsync(Guid id) =>
+        await _repository.DeleteAsync(id);
 }   

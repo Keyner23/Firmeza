@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xl2CmElgYITqu980D9SuqEJcsDALW0F9ZHup2lXOGAE=",
+  "Source": "Ferreteria.Api",
+  "BasePath": "_content/Ferreteria.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
