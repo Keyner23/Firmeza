@@ -1,12 +1,39 @@
+using Ferreteria.Application.Services;
+using Ferreteria.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ferreteria.Api.Controllers;
 
+[ApiController]
+[Route("api/v1/[controller]")]
 public class CustomerController : Controller
 {
-    // GET
-    public IActionResult Index()
+    private readonly CustomerService _service;
+
+    public CustomerController(CustomerService service)
     {
-        return View();
+        _service = service;
+    }
+    
+    [HttpGet]
+    public async Task<IActionResult> GetCustomer()
+    {
+        var customer = await _service.GetCustomersAsync();
+        return Ok(customer);
+    }
+    
+    
+    [HttpPost]
+    public async Task<IActionResult> CreateCustomer([FromBody] Customer customer)
+    {
+        await _service.AddCustomerAsync(customer);
+        return Ok(new { message = "Cliente creado correctamente" });
+    }
+    
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteCustomer(Guid id)
+    {
+        await _service.DeleteCustomerAsync(id);
+        return Ok(new { message = "Cliente eliminado correctamente" });
     }
 }
