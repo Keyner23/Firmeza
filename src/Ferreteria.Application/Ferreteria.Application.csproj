@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Ferreteria.Domain\Ferreteria.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.21" />
+  </ItemGroup>
+
 </Project>

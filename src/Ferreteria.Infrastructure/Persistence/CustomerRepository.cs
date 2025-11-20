@@ -42,4 +42,10 @@ public class CustomerRepository :ICustomerRepository
             await _context.SaveChangesAsync();
         }
     }
+    public async Task<Customer?> GetByEmailAsync(string email)
+    {
+        return await _context.Customers
+            .FirstOrDefaultAsync(x => x.Email == email);
+    }
+
 }

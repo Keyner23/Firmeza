@@ -1,5 +1,6 @@
 using Ferreteria.Application.Services;
 using Ferreteria.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ferreteria.Api.Controllers;
@@ -15,6 +16,7 @@ public class CustomerController : Controller
         _service = service;
     }
     
+    [Authorize]
     [HttpGet]
     public async Task<IActionResult> GetCustomer()
     {
@@ -23,6 +25,7 @@ public class CustomerController : Controller
     }
     
     
+    [Authorize]
     [HttpPost]
     public async Task<IActionResult> CreateCustomer([FromBody] Customer customer)
     {
@@ -30,6 +33,8 @@ public class CustomerController : Controller
         return Ok(new { message = "Cliente creado correctamente" });
     }
     
+    
+    [Authorize]
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteCustomer(Guid id)
     {

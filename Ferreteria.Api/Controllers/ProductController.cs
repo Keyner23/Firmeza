@@ -1,5 +1,6 @@
 using Ferreteria.Application.Services;
 using Ferreteria.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ferreteria.Api.Controllers;
@@ -15,6 +16,7 @@ public class ProductController : Controller
         _service = service;
     }
 
+    [AllowAnonymous]
     [HttpGet]
     public async Task<IActionResult> GetProducts()
     {
@@ -22,6 +24,9 @@ public class ProductController : Controller
         return Ok(products);
     }
     
+    
+    
+    [Authorize] //Solo usuarios autenticados pueden crear productos
     [HttpPost]
     public async Task<IActionResult> CreateProduct([FromBody] Product product)
     {
@@ -30,6 +35,8 @@ public class ProductController : Controller
     }
     
     
+    
+    [Authorize]
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProduct(Guid id)
     {

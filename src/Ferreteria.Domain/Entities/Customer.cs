@@ -7,15 +7,17 @@ public class Customer
     public string Email { get; set; } = string.Empty;
     public string Phone { get; set; } = string.Empty;
     public int Document { get; set; } 
+    public string Password { get; set; } = string.Empty;
     
     public Customer() { }
     
-    public Customer(Guid id, string name, string email, string phone, int document)
+    public Customer(Guid id, string name, string email, string phone, int document, string password)
     {
         Id = id;
         Name = name;
         Email = email;
         Phone = phone;
         Document = document;
+        Password = password;
     }
 }
