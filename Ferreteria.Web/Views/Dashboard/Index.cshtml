@@ -147,7 +147,7 @@
                                                 @if (User.IsInRole("Admin"))
                                                 {
                                                     <td>
-                                                        <form asp-controller="" asp-action="" method="post"
+                                                        <form asp-controller="Product" asp-action="Delete" method="post"
                                                               onsubmit="return confirm('¿Estás seguro de eliminar este equipo?');">
                                                             <input type="hidden" name="id" value="@item.id" />
                                                             <button type="submit" class="btn btn-outline-danger btn-sm rounded-pill">

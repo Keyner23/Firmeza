@@ -47,5 +47,12 @@ public class CustomerRepository :ICustomerRepository
         return await _context.Customers
             .FirstOrDefaultAsync(x => x.Email == email);
     }
+    
+    public async Task<Customer?> GetByDocumentAsync(int document)
+    {
+        return await _context.Customers
+            .FirstOrDefaultAsync(c => c.Document == document);
+    }
+
 
 }

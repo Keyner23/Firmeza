@@ -37,4 +37,12 @@ public class ProductController : Controller
         var products = await _productService.GetProductsAsync();
         return View(products);
     }
+    
+    [HttpPost]
+    public async Task<IActionResult> Delete(Guid id)
+    {
+        await _productService.DeleteProductAsync(id);
+        return RedirectToAction("CreateProduct");
+    }
+
 }

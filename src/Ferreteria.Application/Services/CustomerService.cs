@@ -17,6 +17,16 @@ public class CustomerService
 
     public async Task AddCustomerAsync(Customer customer)
     {
+        
+        var existingEmail = await _repository.GetByEmailAsync(customer.Email);
+        if (existingEmail != null)
+            throw new Exception("El email ya está registrado.");
+
+        
+        var existingDocument = await _repository.GetByDocumentAsync(customer.Document);
+        if (existingDocument != null)
+            throw new Exception("El documento ya está registrado.");
+        
         customer.Id = Guid.NewGuid();
         await _repository.AddAsync(customer);
     }

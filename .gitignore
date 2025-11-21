@@ -5,7 +5,7 @@
 
 # dotenv files
 .env
-Firmeza.sln.DotSettings.user
+
 # User-specific files
 *.rsuser
 *.suo

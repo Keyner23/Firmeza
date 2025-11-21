@@ -33,10 +33,10 @@ public class CustomerController : Controller
         return View(CreateCustomer());
     }
 
-    // [HttpPost]
-    // public async Task<IActionResult> Delete(Guid id)
-    // {
-    //     await _customerService.DeleteCustomerAsync(id);
-    //     return RedirectToAction(nameof(Index));
-    // }
+    [HttpPost]
+    public async Task<IActionResult> Delete(Guid id)
+    {
+        await _customerService.DeleteCustomerAsync(id);
+        return RedirectToAction("IndexCustomer");
+    }
 }

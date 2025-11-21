@@ -153,7 +153,7 @@
                                         @if (User.IsInRole("Admin"))
                                         {
                                             <td>
-                                                <form asp-controller="Client" asp-action="Delete" method="post"
+                                                <form asp-controller="Customer" asp-action="Delete" method="post"
                                                       onsubmit="return confirm('¿Estás seguro de eliminar este cliente?');">
                                                     <input type="hidden" name="id" value="@cliente.Id" />
                                                     <button type="submit" class="btn btn-outline-danger btn-sm rounded-pill">

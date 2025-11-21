@@ -10,4 +10,6 @@ public interface ICustomerRepository
     Task UpdateAsync(Customer customer);
     Task DeleteAsync(Guid id);
     Task<Customer?> GetByEmailAsync(string email);
+    Task<Customer?> GetByDocumentAsync(int document);
+
 }
