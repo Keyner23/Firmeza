@@ -8,7 +8,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//JWT 
+// JWT
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 var key = Encoding.UTF8.GetBytes(jwtSettings["Key"]);
 
@@ -29,30 +29,26 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 
-
-
-
-
-
 // DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Repositorios
+// Repositories
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ISaleRepository, SaleRepository>();
 
-// Servicios
+// Services
 builder.Services.AddScoped<CustomerService>();
 builder.Services.AddScoped<ProductService>();
-builder.Services.AddScoped<AuthService>(); 
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<SaleService>();
 
-
-builder.Services.AddControllers(); 
-
+builder.Services.AddControllers();
 
 // Swagger
-builder.Services.AddEndpointsApiExplorer();builder.Services.AddSwaggerGen(c =>
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
 {
     c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {
@@ -77,51 +73,21 @@ builder.Services.AddEndpointsApiExplorer();builder.Services.AddSwaggerGen(c =>
     }});
 });
 
-
 var app = builder.Build();
 
-// Swagger UI
+// Swagger
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-// Routing
 app.UseRouting();
 
-// Authorization si lo necesitas
-app.UseAuthorization();
+// ✔️ ORDEN CORRECTO
 app.UseAuthentication();
+app.UseAuthorization();
 
-//MAPEO DE ENPOINTS
-app.MapControllers(); 
-
-
-// Endpoint de ejemplo (opcional)
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-    {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast")
-    .WithOpenApi();
+app.MapControllers();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

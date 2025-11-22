@@ -22,6 +22,10 @@ builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<CustomerService>();
 
+//Venta
+builder.Services.AddScoped<ISaleRepository, SaleRepository>();
+builder.Services.AddScoped<SaleService>();
+
 
 
 //  3. Configuración de Identity
