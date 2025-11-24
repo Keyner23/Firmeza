@@ -8,4 +8,4 @@ public interface ISaleRepository
 
     Task<Sale?> GetSaleByIdAsync(Guid id);
     Task<IEnumerable<Sale>> GetAllSalesAsync();
-}
+}   
