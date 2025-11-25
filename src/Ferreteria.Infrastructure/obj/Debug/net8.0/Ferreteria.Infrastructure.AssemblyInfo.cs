@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ferreteria.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d66f7df040ec0c41715e07b59aa9963a731ade93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31738ca3cc460cf6ba28b984b6da83fadfae31b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ferreteria.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ferreteria.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

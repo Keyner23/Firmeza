@@ -84,7 +84,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseRouting();
 
-// ✔️ ORDEN CORRECTO
+
 app.UseAuthentication();
 app.UseAuthorization();
 
