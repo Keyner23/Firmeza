@@ -64,4 +64,8 @@ Project Structure
 ├── appsettings.json   # Production settings
 └── Properties/        # Project properties
 ```
+## Contributors
 
+<a href="https://github.com/migueweb/boa/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Keyner23/firmeza" alt="Contributors" />
+</a>
