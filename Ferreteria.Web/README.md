@@ -123,6 +123,6 @@ API Base URL: http://localhost:5231
 
 ## Contributors
 
-<a href="https://github.com/migueweb/boa/graphs/contributors">
+<a href="https://github.com/keyner23/firmeza/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Keyner23/firmeza" alt="Contributors" />
 </a>
