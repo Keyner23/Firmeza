@@ -34,7 +34,7 @@ Development
 ```bash
 dotnet run
 ```
-The API will be available at https://localhost:5001 (or configured port)
+The API will be available at  http://localhost:5231
 API Endpoints
 
 ### Authentication
