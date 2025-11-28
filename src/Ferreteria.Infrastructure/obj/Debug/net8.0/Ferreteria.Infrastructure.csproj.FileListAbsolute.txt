@@ -10,11 +10,9 @@
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.AssemblyInfoInputs.cache
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.AssemblyInfo.cs
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.csproj.CoreCompileInputs.cache
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.sourcelink.json
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.csproj.CopyComplete
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.dll
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/refint/Ferreteria.Infrastructure.dll
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.pdb
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/ref/Ferreteria.Infrastructure.dll
-/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
-/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml
-/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Infrastructure/obj/Debug/net8.0/Ferreteria.Infrastructure.sourcelink.json
