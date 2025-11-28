@@ -87,18 +87,13 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-
 app.UseCors("AllowVueApp");
 
-// Swagger
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Swagger SIEMPRE disponible
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseRouting();
-
 
 app.UseAuthentication();
 app.UseAuthorization();
