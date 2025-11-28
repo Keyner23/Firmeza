@@ -5,8 +5,8 @@
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.AssemblyInfoInputs.cache
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.AssemblyInfo.cs
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.csproj.CoreCompileInputs.cache
+/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.sourcelink.json
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.dll
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Domain/obj/Debug/net8.0/refint/Ferreteria.Domain.dll
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.pdb
 /home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Domain/obj/Debug/net8.0/ref/Ferreteria.Domain.dll
-/home/Coder/Escritorio/KABO/Firmeza/src/Ferreteria.Domain/obj/Debug/net8.0/Ferreteria.Domain.sourcelink.json

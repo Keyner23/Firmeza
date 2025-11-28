@@ -1,0 +1,35 @@
+﻿services:
+  api:
+    container_name: ferreteria-api
+    build:
+      context: .
+      dockerfile: Ferreteria.Api/Dockerfile
+    ports:
+      - "5000:8080"
+    depends_on:
+      - db
+
+  web:
+    container_name: ferreteria-web
+    build:
+      context: .
+      dockerfile: Ferreteria.Web/Dockerfile
+    ports:
+      - "5001:8080"
+    depends_on:
+      - api
+
+  db:
+    container_name: ferreteria-db
+    image: postgres:16
+    environment:
+      POSTGRES_DB: fermeza
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
