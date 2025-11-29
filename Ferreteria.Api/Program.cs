@@ -78,12 +78,18 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowVueApp", policy =>
     {
-        policy.WithOrigins("http://localhost:5173")
+        policy.WithOrigins(
+                "http://localhost:5173",   // Dev con Vite
+                "http://localhost:8080",   // 
+                "http://localhost:8081"    // frontend en Docker
+            )
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
     });
 });
+
+
 
 var app = builder.Build();
 

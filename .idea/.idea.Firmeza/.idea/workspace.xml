@@ -12,7 +12,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1313c29a-eed0-4895-a1d6-1098db5fbd59" name="Changes" comment="Implementacion de clean para y validacion con identity" />
+    <list default="true" id="1313c29a-eed0-4895-a1d6-1098db5fbd59" name="Changes" comment="Implementacion de clean para y validacion con identity">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Firmeza/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Firmeza/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferreteria.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Ferreteria.Api/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +106,8 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+      &quot;TEXT&quot;,
+      &quot;Markdown&quot;
     ]
   }
 }</component>
@@ -237,7 +241,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
@@ -276,7 +283,7 @@
       <workItem from="1764107536322" duration="4067000" />
       <workItem from="1764181372003" duration="4902000" />
       <workItem from="1764281799238" duration="8142000" />
-      <workItem from="1764370769687" duration="2360000" />
+      <workItem from="1764370769687" duration="6519000" />
     </task>
     <servers />
   </component>
